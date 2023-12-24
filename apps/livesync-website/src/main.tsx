@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
-import {Livesync} from '@livesync/livesync'
+import { Livesync } from '@livesync/livesync'
+import { Ui } from '@livesync/ui';
 
 import App from './app/app';
 
@@ -9,7 +10,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <StrictMode>
-    <Livesync/>
+    <Livesync />
+    <Ui />
     <App />
   </StrictMode>
 );

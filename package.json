@@ -8,8 +8,11 @@
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.2",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "tailwindcss": "^3.4.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -20,8 +23,13 @@
     "@nx/jest": "v17.2.5",
     "@nx/js": "v17.2.5",
     "@nx/react": "v17.2.5",
+    "@nx/storybook": "v17.2.5",
     "@nx/vite": "v17.2.5",
+    "@nx/web": "v17.2.5",
     "@nx/workspace": "v17.2.5",
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/core-server": "^7.5.3",
+    "@storybook/react-vite": "^7.5.3",
     "@swc-node/register": "~1.6.7",
     "@swc/cli": "~0.1.62",
     "@swc/core": "~1.3.85",

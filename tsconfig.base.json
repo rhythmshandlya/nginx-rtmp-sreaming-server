@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@livesync/livesync": ["packages/livesync/src/index.ts"]
+      "@livesync/livesync": ["packages/livesync/src/index.ts"],
+      "@livesync/ui": ["packages/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
