@@ -1,14 +1,14 @@
-import styles from './livesync.module.scss';
+import HSLPlayer from './player/player';
 
-/* eslint-disable-next-line */
-export interface LivesyncProps {}
+interface LivesyncProps {}
 
-export function Livesync(props: LivesyncProps) {
+function Livesync(props: LivesyncProps) {
   return (
-    <div className={styles['container']}>
+    <div>
       <h1>Welcome to Livesync!</h1>
+      <HSLPlayer src="your_hls_stream_url_here" />
     </div>
   );
 }
 
-export default Livesync;
+export { HSLPlayer,  Livesync, LivesyncProps};

@@ -1,12 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+// import styles from './app.module.scss';
+import { HSLPlayer } from '@livesync/livesync';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="streaming-insights" />
+      <HSLPlayer src='https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8' />
     </div>
   );
 }
