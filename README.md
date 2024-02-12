@@ -2,8 +2,8 @@
 
 ## Apps
 
-1. **md**: Contains documentation.
-2. **Dashboard**: Web-based dashboard interface for managing your streams.
+1. **md**: Dcumentation.
+2. **Dashboard**: Dashboard for managing your stream.
 3. **Nginx-RTMP**: Configurations for setting up an Nginx server with RTMP module.
 4. **API**: Backend API.
 
