@@ -17,9 +17,10 @@
 ## Getting Started
 
 1. Clone this repository.
-2. Navigate to the desired directory.
-3. Follow the instructions in the README for setup.
-4. Repeat for each component.
+2. Install PNPM globally if you haven't already: `npm install -g pnpm`
+3. Navigate to the root directory of the repository.
+4. Run `pnpm install` to install dependencies for all apps and packages.
+5. Run `pnpm dev` to start all apps at once.
 
 ## Contributing
 
