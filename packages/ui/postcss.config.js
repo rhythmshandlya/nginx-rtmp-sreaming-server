@@ -1,10 +1,7 @@
-const { join } = require('path');
-
+// eslint-disable-next-line no-undef
 module.exports = {
   plugins: {
-    tailwindcss: {
-      config: join(__dirname, 'tailwind.config.js'),
-    },
+    tailwindcss: {},
     autoprefixer: {},
   },
 };
