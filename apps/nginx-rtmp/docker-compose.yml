@@ -8,3 +8,4 @@ services:
       - ./recordings:/recordings
     ports:
       - '1935:1935'
+      - '80:80'

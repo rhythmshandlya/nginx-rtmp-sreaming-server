@@ -1,12 +1,12 @@
 import { Route, Routes, Link, BrowserRouter } from 'react-router-dom';
-import { HlsPlayer } from 'hls-player';
+import { LiveSyncPlayer } from 'hls-player';
 
 export function App() {
   return (
     <div>
       <h1>
-        <span className='bg-red-900'> Hello there! </span>
-        <HlsPlayer />
+        <span className=''> My Live Stream </span>
+        <LiveSyncPlayer url='http://localhost/output/test.m3u8' />
       </h1>
     </div>
   );
