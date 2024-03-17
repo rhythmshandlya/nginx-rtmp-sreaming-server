@@ -1,1 +1,1 @@
-export * from './lib/hls-player';
+export { LiveSyncPlayer } from './lib/hls-player';
